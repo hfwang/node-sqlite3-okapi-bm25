@@ -1,6 +1,6 @@
 # Okapi BM25 Full Text Search Ranking Function SQLite Extension
 
-This NPM module is a simple repackaging of <https://github.com/rads/sqlite-okapi-bm25> so that it can work out of the box with a simple `npm install sqlite-okapi-bm25` instead of having to run the Makefile explicitly.
+This NPM module is a simple repackaging of <https://github.com/rads/sqlite-okapi-bm25> so that it can work out of the box with a simple `npm install sqlite-okapi-bm25` instead of having to run the Makefile explicitly. The function is documented more explicitly in that repository.
 
 This SQLite extension creates a SQL function called `okapi_bm25` that returns the [Okapi BM25 ranking][o] for results of a full-text search. Okapi BM25 is a modern ranking function that calculates a score for each result based on its relevance to the search query. This extension only works with `MATCH` queries on [FTS4 tables][f].
 
